@@ -44,16 +44,6 @@ Lee solo el nombre de cada animación y busca palabras clave (atac, nad, camin, 
 
 El botón **Guardar ficha** descarga un archivo `nombre.ficha.json` con todo: los datos de la entidad, el modelo, la textura y las animaciones. Para hacer otra versión, soltá solo la ficha: el formulario aparece completo, cambiás lo que quieras (efecto, vida, botín, propiedades...) y descargás un `.mcaddon` nuevo. Las fichas hechas con la versión anterior no traen los archivos: con esas hay que soltar también el modelo y la textura.
 
-## Publicarla en GitHub Pages
-
-1. Creá un repositorio nuevo en GitHub (público, para que Pages sea gratis).
-2. Subí `index.html` a la raíz del repositorio (botón **Add file → Upload files**). Si ya había uno, reemplazalo.
-3. En el repositorio, andá a **Settings → Pages**.
-4. En **Build and deployment**, elegí **Deploy from a branch**, la rama `main` y la carpeta `/ (root)`. Guardá.
-5. Esperá uno o dos minutos. La dirección queda como `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/`.
-
-También funciona sin internet: abrí `index.html` con doble clic. La librería para crear el zip (JSZip, licencia MIT) ya viene incluida dentro del archivo.
-
 ## Qué genera
 
 - `NOMBRE_BP`: pack de comportamiento (vida, movimiento, IA, ataque, botín, experiencia, propiedades y, si lanza cosas, su proyectil).
